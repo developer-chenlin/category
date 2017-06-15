@@ -13,6 +13,11 @@
 		9772F5BD1EF2741300E6E9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9772F5BB1EF2741300E6E9F9 /* Main.storyboard */; };
 		9772F5BF1EF2741300E6E9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9772F5BE1EF2741300E6E9F9 /* Assets.xcassets */; };
 		9772F5C21EF2741300E6E9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9772F5C01EF2741300E6E9F9 /* LaunchScreen.storyboard */; };
+		9772F5CA1EF2749A00E6E9F9 /* Category-Lean.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9772F5C91EF2749A00E6E9F9 /* Category-Lean.podspec */; };
+		9772F5D21EF274B900E6E9F9 /* NSString+LEAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772F5CD1EF274B900E6E9F9 /* NSString+LEAN.m */; };
+		9772F5D31EF274B900E6E9F9 /* UIImage+LEAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772F5CF1EF274B900E6E9F9 /* UIImage+LEAN.m */; };
+		9772F5D41EF274B900E6E9F9 /* UIView+LEAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772F5D11EF274B900E6E9F9 /* UIView+LEAN.m */; };
+		9772F5D61EF2760900E6E9F9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9772F5D51EF2760900E6E9F9 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		9772F5BE1EF2741300E6E9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9772F5C11EF2741300E6E9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9772F5C31EF2741300E6E9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9772F5C91EF2749A00E6E9F9 /* Category-Lean.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Category-Lean.podspec"; sourceTree = "<group>"; };
+		9772F5CC1EF274B900E6E9F9 /* NSString+LEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LEAN.h"; sourceTree = "<group>"; };
+		9772F5CD1EF274B900E6E9F9 /* NSString+LEAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LEAN.m"; sourceTree = "<group>"; };
+		9772F5CE1EF274B900E6E9F9 /* UIImage+LEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LEAN.h"; sourceTree = "<group>"; };
+		9772F5CF1EF274B900E6E9F9 /* UIImage+LEAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LEAN.m"; sourceTree = "<group>"; };
+		9772F5D01EF274B900E6E9F9 /* UIView+LEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LEAN.h"; sourceTree = "<group>"; };
+		9772F5D11EF274B900E6E9F9 /* UIView+LEAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LEAN.m"; sourceTree = "<group>"; };
+		9772F5D51EF2760900E6E9F9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,7 @@
 		9772F5A61EF2741300E6E9F9 = {
 			isa = PBXGroup;
 			children = (
+				9772F5C91EF2749A00E6E9F9 /* Category-Lean.podspec */,
 				9772F5B11EF2741300E6E9F9 /* Category */,
 				9772F5B01EF2741300E6E9F9 /* Products */,
 			);
@@ -58,12 +72,14 @@
 		9772F5B11EF2741300E6E9F9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				9772F5CB1EF274B900E6E9F9 /* Class */,
 				9772F5B51EF2741300E6E9F9 /* AppDelegate.h */,
 				9772F5B61EF2741300E6E9F9 /* AppDelegate.m */,
 				9772F5B81EF2741300E6E9F9 /* ViewController.h */,
 				9772F5B91EF2741300E6E9F9 /* ViewController.m */,
 				9772F5BB1EF2741300E6E9F9 /* Main.storyboard */,
 				9772F5BE1EF2741300E6E9F9 /* Assets.xcassets */,
+				9772F5D51EF2760900E6E9F9 /* LICENSE */,
 				9772F5C01EF2741300E6E9F9 /* LaunchScreen.storyboard */,
 				9772F5C31EF2741300E6E9F9 /* Info.plist */,
 				9772F5B21EF2741300E6E9F9 /* Supporting Files */,
@@ -77,6 +93,19 @@
 				9772F5B31EF2741300E6E9F9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9772F5CB1EF274B900E6E9F9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9772F5CC1EF274B900E6E9F9 /* NSString+LEAN.h */,
+				9772F5CD1EF274B900E6E9F9 /* NSString+LEAN.m */,
+				9772F5CE1EF274B900E6E9F9 /* UIImage+LEAN.h */,
+				9772F5CF1EF274B900E6E9F9 /* UIImage+LEAN.m */,
+				9772F5D01EF274B900E6E9F9 /* UIView+LEAN.h */,
+				9772F5D11EF274B900E6E9F9 /* UIView+LEAN.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +166,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9772F5CA1EF2749A00E6E9F9 /* Category-Lean.podspec in Resources */,
 				9772F5C21EF2741300E6E9F9 /* LaunchScreen.storyboard in Resources */,
 				9772F5BF1EF2741300E6E9F9 /* Assets.xcassets in Resources */,
 				9772F5BD1EF2741300E6E9F9 /* Main.storyboard in Resources */,
+				9772F5D61EF2760900E6E9F9 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9772F5D41EF274B900E6E9F9 /* UIView+LEAN.m in Sources */,
 				9772F5BA1EF2741300E6E9F9 /* ViewController.m in Sources */,
+				9772F5D21EF274B900E6E9F9 /* NSString+LEAN.m in Sources */,
+				9772F5D31EF274B900E6E9F9 /* UIImage+LEAN.m in Sources */,
 				9772F5B71EF2741300E6E9F9 /* AppDelegate.m in Sources */,
 				9772F5B41EF2741300E6E9F9 /* main.m in Sources */,
 			);
